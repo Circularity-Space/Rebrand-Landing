@@ -1,0 +1,56 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+*::selection {
+  background-color: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar € {
+  overflow: hidden;
+}
+
+.navbar li {
+  float: right;
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 14px 20px;
+  text-align: right;
+}
+
+.navbar li.logo {
+  float: left;
+}
+
+.title-div {
+  text-align: center;
+  padding: 200px;
+}
+
+.title {
+  font-size: 70px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  background-color: #00000d;
+  color: white;
+}
+
+.right-row {
+  flex: 30%;
+  text-align: center;
+}
+
+.left-row {
+  flex: 70%;
+}
